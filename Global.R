@@ -17,7 +17,7 @@ climat= read.csv(file = "Climat.csv",header = TRUE, sep = ";",na.strings = "-")
 
 
 
-Application_Leclair_Romain=shinyApp(ui=shinyUI, server=shinyServer)
+Application_Leclair_Romain=shinyApp(ui=shinyUI1, server=shinyServer)
 runApp(Application_Leclair_Romain, display.mode = "showcase")
 
 

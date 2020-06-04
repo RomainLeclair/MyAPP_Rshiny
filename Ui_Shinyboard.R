@@ -1,6 +1,6 @@
 library(shinydashboard)
 
-shinyUI=dashboardPage(skin = "red", # personnalisation du thème
+shinyUI1=dashboardPage(skin = "red", # personnalisation du thème
               
               # En-tête
               dashboardHeader(title = "Analyse Climat  Fr "),
